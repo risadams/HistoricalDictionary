@@ -21,13 +21,13 @@ Go through this checklist after creating your repository. It should only take a 
 ### README
 
 - [ ] Update this `README.md` (Note, do last!).
-- [ ] Rename all instances of `<Replace Title>` in README to match the new repo title
+- [ ] Rename all instances of `HistoricalDictionary` in README to match the new repo title
 - [ ] Manually go through and edit the rest of the README.
 
 ### Other Files
 
 - [ ] Copy `CODE_OF_CONDUCT.md` verbatim.
-- [ ] Copy `CONTRIBUTING.md` and ensure that you've added any repository-specific instructions. (Replace `<Replace Title>` again).
+- [ ] Copy `CONTRIBUTING.md` and ensure that you've added any repository-specific instructions. (Replace `HistoricalDictionary` again).
 - [ ] Should you have a `CHANGELOG.md`? Document your release process, if you plan on having one, in the `CONTRIBUTING.md` file.
 
 ### Dotfiles
@@ -76,7 +76,7 @@ Go through this checklist after creating your repository. It should only take a 
 
 ## Contribute
 
-If you think this could be better, please [open an issue](https://github.com/risadams/<Replace Title>/issues/new)!
+If you think this could be better, please [open an issue](https://github.com/risadams/HistoricalDictionary/issues/new)!
 
 Please note that all interactions in this organization fall under our [Code of Conduct](CODE_OF_CONDUCT.md).
 

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Description>A .NET data structure library to track Key/Value changes over time. </Description>
@@ -12,12 +12,25 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/risadams/HistoricalDictionary</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>
+      2.0.0 - Updated Target TargetFramework to .NET 9.0
+      1.0.0 - Initial Release
+    </PackageReleaseNotes>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <Version>2.0.0</Version>
+    <Authors>Ris Adams</Authors>
+    <Description>
+      This is a lightweight library to add a history state to a dictionary.
+    </Description>    
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Tests\**" />
     <EmbeddedResource Remove="Tests\**" />
     <None Remove="Tests\**" />
+    <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
